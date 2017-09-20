@@ -20,7 +20,6 @@
                  [cljs-ajax "0.6.0"]
                  [com.andrewmcveigh/cljs-time "0.5.0"]
                  [reagent-material-ui "0.2.4"]
-                 [cs4278.grading "0.1.2-SNAPSHOT"]
                  [venantius/accountant "0.2.0"
                   :exclusions [org.clojure/tools.reader]]
                  [auth0-ring "0.1.0"]]
@@ -36,8 +35,7 @@
             [lein-asset-minifier "0.2.7"
              :exclusions [org.clojure/clojure]]]
 
-  :repositories [["private" {:url "s3p://cs4278/releases/" :creds :gpg}]
-                 ["central" "http://repo1.maven.org/maven2"]
+  :repositories [["central" "http://repo1.maven.org/maven2"]
                  ["clojure" "http://build.clojure.org/releases"]
                  ["clojure-snapshots" "http://build.clojure.org/snapshots"]
                  ["clojars" "http://clojars.org/repo/"]]
