@@ -60,7 +60,8 @@
          stored in the msg map's :msg key and returns the updated msg with its
          :msg key set to the expanded text
       d. a separate function, called expansions, that defines the expansions
-      e. an import for clojure.string with the name 'string'
+      e. an import for clojure.string with the name 'string' using a 'require'
+         statement
       f. list and/or map destructuring
 
       Hints:
