@@ -29,7 +29,6 @@
    get stuck (most people will!), please ask for help.
 
    You must complete all of these steps before completing Programming assignment
-   1.
 
 
    Programming Assignment 1:
